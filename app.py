@@ -33,7 +33,7 @@ df = pd.DataFrame({
 #     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 # })
 
-fig = px.line(df, x="Dates", y="Sales", color="Region")
+fig = px.line(df, x="Dates", y="Sales")
 
 app.layout = html.Div(children=[
     html.H1(children='Pink Morsel Sales by Date'),
